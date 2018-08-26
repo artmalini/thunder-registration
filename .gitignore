@@ -1,0 +1,4 @@
+*.zip
+sftp-config.json
+*.txt
+node_modules

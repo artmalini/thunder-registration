@@ -1,0 +1,21 @@
+.login-thunder-body {	
+	.grid {
+		padding-right: 6px;
+	    padding-left: 6px;
+	    margin-right: auto;
+	    margin-left: auto;
+		.row {
+			margin-right: -6px;
+	   		margin-left: -6px;
+		    &::before {
+			    display: table;
+			    content: " ";			    
+			}
+			&::after {
+				display: table;
+			    content: " ";			    
+				clear: both;
+			}
+		}
+	}
+}	

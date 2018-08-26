@@ -1,0 +1,665 @@
+@charset "UTF-8";
+/*@import "normalize";*/
+.login-thunder-body {
+  /* input[type="bottom"], input[type="submit"] {
+		margin: 0;
+		padding: 0;
+	} */
+  /* checkbox and radio stuff */
+  position: relative;
+  background: #f3f3f3;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 320px;
+  box-sizing: border-box;
+  letter-spacing: 0px;
+  margin: 0;
+  top: 0;
+  /* not important */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  /* not important */ }
+
+.login-thunder-body input[type="text"], .login-thunder-body input[type="search"], .login-thunder-body input[type="password"], .login-thunder-body input[type="email"], .login-thunder-body input[type="tel"], .login-thunder-body input[type="url"], .login-thunder-body input[type="bottom"], .login-thunder-body input[type="submit"], .login-thunder-body input[type="select"] {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 1px 3px #939393;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 25px;
+  text-shadow: 1px 0px 0 white;
+  -moz-box-shadow: inset 0px 1px 3px #939393;
+  -webkit-box-shadow: inset 0px 1px 3px #939393; }
+
+.login-thunder-body .thunder-input {
+  position: relative; }
+
+.login-thunder-body .thunder-input textarea[type="text"] {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 1px 3px #939393;
+  font-family: "Lato", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 25px;
+  text-shadow: 1px 0px 0 #939393;
+  -moz-box-shadow: inset 0px 1px 3px #939393;
+  -webkit-box-shadow: inset 0px 1px 3px #939393; }
+
+.login-thunder-body h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #414848;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 34px;
+  text-shadow: 1px 0 0 #939393; }
+
+.login-thunder-body .thunder-login-sub {
+  background: #56c2e1;
+  border-radius: 5px;
+  border: 1px solid #46b3d3;
+  color: #fff;
+  font-family: 'Lato', 'Bree Serif', serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 11px 21px;
+  text-shadow: 0px 1px 0 #999;
+  cursor: pointer;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s; }
+
+.login-thunder-body .thunder-login-sub:hover {
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 1px 3px #999;
+  color: #444;
+  background: #3f9db8;
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+.login-thunder-body .fields-trigger {
+  display: block;
+  background: none;
+  border: none;
+  color: #414848;
+  cursor: pointer;
+  font-family: 'Lato', 'Bree Serif', serif;
+  font-size: 18px;
+  font-weight: 900;
+  margin-left: 43px;
+  padding: 14px 0 0 0;
+  text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+  /* Animation @extend .back-thumb-style;*/
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s; }
+
+.login-thunder-body .fields-trigger:hover {
+  color: #3f9db8; }
+
+.login-thunder-body .thunder-passremember {
+  color: #56c2e1;
+  margin: 10px 0 10px 7px; }
+
+.login-thunder-body h1 {
+  color: #333333;
+  font: 31px/40px Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  font-weight: 300; }
+
+.login-thunder-body a {
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #498596;
+  -webkit-transition: none;
+  transition: none;
+  text-decoration: none; }
+
+.login-thunder-body a:hover {
+  color: #363636;
+  text-decoration: underline; }
+
+.login-thunder-body a:focus {
+  text-decoration: underline; }
+
+.login-thunder-body input[type="search"] {
+  -webkit-appearance: none; }
+
+.login-thunder-body code, .login-thunder-body kbd, .login-thunder-body pre, .login-thunder-body samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
+
+.login-thunder-body code {
+  padding: 2px 4px;
+  font-size: 90%;
+  border-radius: 4px; }
+
+.login-thunder-body kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25); }
+
+.login-thunder-body kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+  box-shadow: none; }
+
+.login-thunder-body pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857;
+  word-break: break-all;
+  word-wrap: break-word;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+
+.login-thunder-body pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0; }
+
+.login-thunder-body fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0; }
+
+.login-thunder-body legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  line-height: inherit;
+  border: 0; }
+
+.login-thunder-body label {
+  display: inline-block;
+  max-width: 100%;
+  margin: 8px 0;
+  font-weight: bold; }
+
+.login-thunder-body input[type="search"] {
+  box-sizing: border-box; }
+
+.login-thunder-body input[type="radio"], .login-thunder-body input[type="checkbox"] {
+  margin: 4px 0 0;
+  line-height: normal; }
+
+.login-thunder-body input[type="file"] {
+  display: block; }
+
+.login-thunder-body input[type="checkbox"], .login-thunder-body input[type="range"], .login-thunder-body input[type="textarea"] {
+  display: block;
+  width: 100%; }
+
+.login-thunder-body select[multiple], .login-thunder-body select[size] {
+  height: auto; }
+
+.login-thunder-body select {
+  width: 100%; }
+
+.login-thunder-body input[type="file"]:focus, .login-thunder-body input[type="radio"]:focus, .login-thunder-body input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+.login-thunder-body img {
+  display: inline-block;
+  max-width: 100%;
+  border: 0;
+  height: auto; }
+
+.login-thunder-body div.thunder-input label.thunder-radio, .login-thunder-body div.thunder-input label.thunder-checkbox {
+  color: #666 !important; }
+
+.login-thunder-body div.thunder-input label.thunder-checkbox.hide-field {
+  float: left;
+  color: #888 !important; }
+
+.login-thunder-body div.thunder-input label.thunder-radio span {
+  background: url(img/unchecked.png) no-repeat center; }
+
+.login-thunder-body div.thunder-input label.thunder-radio span.checked {
+  background: url(img/checked.png) no-repeat center; }
+
+.login-thunder-body div.thunder-input label.thunder-checkbox span {
+  background: url(img/unchecked-checkbox.png) no-repeat center; }
+
+.login-thunder-body div.thunder-input label.thunder-checkbox span.checked {
+  background: url(img/checked-checkbox.png) no-repeat center; }
+
+.login-thunder-body div.thunder-input label.thunder-radio, .login-thunder-body div.thunder-input label.thunder-checkbox {
+  position: relative;
+  padding: 0 25px;
+  margin: 5px 0;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: normal !important; }
+
+.login-thunder-body div.thunder-input label.thunder-radio.full, .login-thunder-body div.thunder-input label.thunder-checkbox.full {
+  width: auto !important;
+  display: block; }
+
+.login-thunder-body div.thunder-input label.thunder-radio input[type=radio], .login-thunder-body div.thunder-input label.thunder-checkbox input[type=checkbox] {
+  display: none !important; }
+
+.login-thunder-body div.thunder-input label.thunder-radio span, .login-thunder-body div.thunder-input label.thunder-checkbox span {
+  position: absolute;
+  left: 0;
+  width: 18px;
+  height: 18px; }
+
+.login-thunder-body .thunder-pic-uploaded {
+  background: #83aacd;
+  border: none;
+  border-radius: 3px;
+  margin-top: 6px;
+  margin-right: 4px;
+  color: #fcfff1;
+  padding: 5px; }
+
+.login-thunder-body .thunder-pic-uploaded:hover {
+  opacity: 0.7; }
+
+.login-thunder-body .thunder-pic-upload {
+  background: #83aacd;
+  border: none;
+  border-radius: 3px;
+  margin-top: 6px;
+  margin-right: 4px;
+  color: #fcfff1;
+  padding: 5px; }
+
+.login-thunder-body .thunder-pic-upload:hover {
+  opacity: 0.7; }
+
+.login-thunder-body .thunder-input .ava-remove {
+  border: none;
+  background: #ff5656;
+  border-radius: 3px;
+  padding: 5px;
+  color: white;
+  font-weight: 700; }
+
+.login-thunder-body .thunder-input .ava-remove:hover {
+  opacity: 0.7; }
+
+.login-thunder-body .thunder-input .file-remove {
+  border: none;
+  background: #8224e3;
+  border-radius: 3px;
+  padding: 5px;
+  color: white;
+  font-weight: 700; }
+
+.login-thunder-body .thunder-input .file-remove:hover {
+  opacity: 0.7; }
+
+.login-thunder-body .ajax-file-upload-statusbar {
+  idth: 100%;
+  margin-top: 10px; }
+
+.login-thunder-body .ajax-file-upload-statusbar .ajax-file-upload-progress {
+  border: 1px solid #ddd;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 2px; }
+
+.login-thunder-body .ajax-file-upload-statusbar .ajax-file-upload-progress .ajax-file-upload-bar {
+  background: #8dde51; }
+
+.login-thunder-body .thunder-message {
+  background-color: #f0cac6;
+  border: 2px dashed #b65656;
+  border-radius: 3px; }
+
+.login-thunder-body .thunder-message p {
+  text-indent: 0;
+  padding: 5px;
+  margin: auto;
+  text-align: center; }
+
+.login-thunder-body .thunder-warning {
+  border: solid 1px #ee5151;
+  box-shadow: inset 0 1px #ff4f4f;
+  background: #c24a4a;
+  background: -moz-linear-gradient(0% 0% 270deg, #fc9090, #c14c39);
+  margin: 5px 0 0 0;
+  display: inline-block;
+  padding: 6px 10px;
+  line-height: 14px;
+  border-radius: 5px;
+  position: relative;
+  top: -20px;
+  opacity: 0; }
+
+.login-thunder-body .thunder-warning p {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  color: #fff;
+  font-size: 11px; }
+
+.login-thunder-body .thunder-warning .thunder-icon-caret-up {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #db3434; }
+
+.login-thunder-body .warning-ok {
+  position: absolute;
+  right: 15px;
+  bottom: 4px; }
+
+.login-thunder-body .warning-ok .thunder-warning-ok {
+  color: #839e63;
+  font-weight: bold;
+  font-size: 30px; }
+
+.login-thunder-body .warning-ok .thunder-warning-ok:before {
+  content: '\2713'; }
+
+.login-thunder-body .password-description {
+  padding: 7px 0 7px 0;
+  font-family: Lekton, sans-serif; }
+
+.login-thunder-body #password-strength {
+  height: 8px; }
+
+.login-thunder-body .strength0 {
+  width: 250px;
+  background: #cccccc; }
+
+.login-thunder-body .strength1 {
+  width: 50px;
+  background: #ff0000; }
+
+.login-thunder-body .strength2 {
+  width: 100px;
+  background: #ff5f5f; }
+
+.login-thunder-body .strength3 {
+  width: 150px;
+  background: #56e500; }
+
+.login-thunder-body .strength4 {
+  background: #4dcd00;
+  width: 200px; }
+
+.login-thunder-body .strength5 {
+  background: #399800;
+  width: 250px; }
+
+.login-thunder-body .thunder-grid {
+  padding-right: 6px;
+  padding-left: 6px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.login-thunder-body .thunder-grid .thunder-row {
+  margin-right: -6px;
+  margin-left: -6px; }
+
+.login-thunder-body .thunder-grid .thunder-row::before {
+  display: table;
+  content: " "; }
+
+.login-thunder-body .thunder-grid .thunder-row::after {
+  display: table;
+  content: " ";
+  clear: both; }
+
+.login-thunder-body .thunder-grid .thunder-field {
+  float: left;
+  width: 100%; }
+
+.login-thunder-body .thunder-grid .thunder-field-col {
+  float: left; }
+
+.login-thunder-body [data-key="logo_img"] h1 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 300; }
+
+.login-thunder-body [data-key="logo_img"] h1 a {
+  display: block;
+  font-size: 20px;
+  /* это нужно */
+  text-decoration: none;
+  text-indent: -9999px;
+  /* спрячет текст ссылки */
+  width: 300px;
+  height: 84px;
+  /* float: right;*/
+  background: url(img/thunderreg.png) no-repeat; }
+
+.login-thunder-body .thunder-section {
+  margin: 8px 0 8px 0;
+  border-bottom: 1px solid #b2b2b2; }
+
+.login-thunder-body .thunder-section .thunder-icon.angle-right {
+  /*font-family: FontAwesome;*/
+  /*content: "\f105";*/
+  position: absolute;
+  right: 0px;
+  background: url(img/right.png) no-repeat center;
+  width: 18px;
+  height: 18px; }
+
+.login-thunder-body .thunder-section .thunder-icon.angle-down {
+  /*font-family: FontAwesome;*/
+  /*content: "\f107";*/
+  position: absolute;
+  right: 0px;
+  background: url(img/down.png) no-repeat center;
+  width: 18px;
+  height: 18px; }
+
+.login-thunder-body .thunder-section:hover {
+  cursor: pointer;
+  opacity: 0.8; }
+
+.login-thunder-body .thunder-collapsible-1 span {
+  margin: 0 7px 0 0; }
+
+.login-thunder-body .thead {
+  padding: 15px 15px 0 15px; }
+
+.login-thunder-body .thead h1 {
+  margin: 18px 0;
+  /*font-family: 'Bree Serif', serif;*/
+  font-family: 'Allerta', sans-serif;
+  font-weight: 300; }
+
+.login-thunder-body .thead h1 a {
+  display: block;
+  font-size: 20px;
+  /* это нужно */
+  text-decoration: none;
+  text-indent: -9999px;
+  /* спрячет текст ссылки */
+  width: 300px;
+  height: 84px;
+  /* float: right;*/
+  background-image: url(img/thunderreg.png) no-repeat; }
+
+.login-thunder-body .tcontent {
+  padding: 0px 15px 25px 15px; }
+
+.login-thunder-body .tcontent h2 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #414848;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 34px;
+  text-shadow: 1px 0 0 #939393; }
+
+.login-thunder-body .tcontent .thunder-label {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400; }
+
+.login-thunder-body .tcontent .thunder-input select {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-size: 14px;
+  box-shadow: inset 0px 1px 3px #939393;
+  box-shadow: inset 0px 1px 3px #939393; }
+
+.login-thunder-body .tcontent .thunder-input textarea {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 1px 3px #939393;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 25px;
+  text-shadow: 1px 0px 0 #939393;
+  -moz-box-shadow: inset 0px 1px 3px #939393;
+  -webkit-box-shadow: inset 0px 1px 3px #939393; }
+
+.login-thunder-body .tcontent .thunder-input input {
+  /*DONE*/
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  /* Animation @extend .back-thumb-style;*/ }
+
+.login-thunder-body .tcontent .thunder-input input[type=text], .login-thunder-body .tcontent .thunder-input input[type=password] {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: inset 0px 1px 3px #939393;
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 25px;
+  text-shadow: 1px 0px 0 #939393;
+  -moz-box-shadow: inset 0px 1px 3px #939393;
+  -webkit-box-shadow: inset 0px 1px 3px #939393; }
+
+.login-thunder-body .tcontent .thunder-input input[type=select] {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 3px #939393;
+  -moz-box-shadow: inset 0px 1px 3px #939393;
+  -webkit-box-shadow: inset 0px 1px 3px #939393;
+  padding: 15px 25px;
+  text-shadow: 1px 0px 0px #000;
+  width: 100%;
+  height: 50px;
+  color: #444;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+
+.login-thunder-body .tcontent .thunder-input input[type=radio] {
+  font-family: 'Allerta', sans-serif;
+  font-size: 13px;
+  font-weight: 400; }
+
+.login-thunder-body .tcontent .thunder-input input:hover {
+  background: #dfe9ec; }
+
+.login-thunder-body .tcontent .thunder-input input:focus {
+  background: #dfe9ec;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25); }
+
+.login-thunder-body .tbottom {
+  padding: 25px 15px 5px 15px;
+  background: #d0e2e2;
+  border-top: 1px solid #fff; }
+
+.login-thunder-body .tbottom .thunder-login-sub {
+  /* float: right; */
+  background: #56c2e1;
+  border-radius: 5px;
+  border: 1px solid #46b3d3;
+  color: #fff;
+  font-family: 'Lato', 'Bree Serif', serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 11px 21px;
+  text-shadow: 0px 1px 0 #999;
+  cursor: pointer;
+  transition: all 0.5s;
+  /* Animation @extend .back-thumb-style;*/
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s; }
+
+.login-thunder-body .tbottom .thunder-login-sub:hover {
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 1px 3px #999;
+  color: #444;
+  background: #3f9db8;
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+.login-thunder-body .tbottom .fields-trigger {
+  display: block;
+  background: none;
+  border: none;
+  color: #414848;
+  cursor: pointer;
+  /*  float: left; */
+  font-family: 'Lato', 'Bree Serif', serif;
+  font-size: 18px;
+  font-weight: 900;
+  margin-left: 43px;
+  padding: 14px 0 0 0;
+  text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+  /* Animation @extend .back-thumb-style;*/
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s; }
+
+.login-thunder-body .tbottom .fields-trigger:hover {
+  color: #3f9db8; }
+
+.login-thunder-body .tbottom .thunder-passremember {
+  color: #56c2e1;
+  margin: 10px 0 10px 7px; }
+
+/*# sourceMappingURL=layout1.css.map */
