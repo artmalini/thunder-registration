@@ -1,7 +1,7 @@
 <?php 
-	$array = get_option('thunder-registration');
+	//$array = get_option('thunder-registration');
 	//$array = get_option('thunder_fields_groups');	
-	print_r($array);
+	//print_r($array);
 	$config;
 	if( thunder_get_option( $provider . '_sdk_id' ) ) {
 		$config[] = $config["providers"][$provider]["keys"]["id"] = thunder_get_option( $provider . '_sdk_id' );

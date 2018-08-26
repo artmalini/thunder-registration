@@ -16,9 +16,8 @@
 	//$array = get_option('thunder_fields_groups');	
 	//print_r($array);
 
-		 $stylesheet .= '<div class="mylol">LOL</div>';
-
-		$stylesheet .= '<p>';
+		// $stylesheet .= '<div class="debug">debug</div>';
+		//$stylesheet .= '<p>';
 		//$stylesheet .= $array['.login'];
 				//$stylesheet .= '.thunder-body .head h1 {font-weight: 800;}';
 
@@ -64,7 +63,7 @@
 			$stylesheet .= '}';
 		}
 		$stylesheet .= '</p>';
-		echo $stylesheet;
+		//echo $stylesheet;
 	 ?>
 
 </div>
